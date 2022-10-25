@@ -156,7 +156,6 @@
                             <label for=""><b>Chọn Thương Hiệu Sản Phẩm</b></label>
                             <select name="brands_id" id="hung" class="form-control" required="required">
                                 <option value="">Thương hiệu sản phẩm </option>
-                               
                                     @foreach($brands as $cate)
                                     <option value="{{$cate->id}}">{{$cate->name}}</option>
                                     @endforeach
@@ -177,7 +176,6 @@
                         <div>
                             <div class="form-group">
                                 <label for=""><b>Chọn màu sản phẩm</b></label>
-
                                 <div class="checkbox">
                                     @foreach($color as $value)
                                     <label>

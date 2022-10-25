@@ -224,10 +224,6 @@
                             </div>
 
 
-
-
-
-
                             @foreach($top_product as $value)
                             <div style="margin-bottom:40px;margin-top:30px;" class="col-md-4">
                                 <div class="card" style="width: 18 rem;height:417px">
